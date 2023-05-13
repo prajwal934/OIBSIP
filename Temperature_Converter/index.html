@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Foldit&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css"
+    <title></title>
+</head>
+<body>
+    <form id="tempCalc" onsubmit="calculateTemp(); return false">
+
+        <label for="temp">"Please Enter The Temperature" </label>
+        <br/> <input type="number" name="temp" id="temp">
+
+
+        <select name="temp_diff" id="temp_diff">
+            <option value="cel">°C</option>
+            <option value="fah">°F</option>
+        </select> <br/>
+
+        <input type="submit" name="temp"> <br/>
+        <span id="resultContainer"></span>
+    </form> 
+
+    <script src="script.js"></script>
+</body>
+</html>

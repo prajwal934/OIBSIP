@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Foldit', cursive; */
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #6bbcfd;
+    display: grid;
+    place-items: center;
+    /* font-size: 40px; */
+    /* text-shadow: #232849; */
+    /* color: rgba(252, 252, 57, 0.932); */
+}
+
+form {
+    background-color: #fdcfce;
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    -webkit-box-shadow: 0 10px 6px -5px #777;
+    -moz-box-shadow: 0 10px 6px -5px #777;
+    box-shadow: 0 10px 6px -5px #777;
+    border-radius: 4rem;
+
+}
+
+#tempCalc label {
+    font-size: 30px;
+    color: #232849;
+}
+
+#temp {
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 2rem;
+    margin-top: 20px;
+}
+
+#temp_diff {
+    height:40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 2rem;
+    /* text-decoration: burlywood; */
+    vertical-align: top;
+}
+[type ="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3rem;
+    background-color: black;
+    color: antiquewhite;
+}
+
+#resultContainer {
+    font-size: 30px;
+    
+}
